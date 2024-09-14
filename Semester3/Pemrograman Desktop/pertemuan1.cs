@@ -29,8 +29,8 @@ namespace Latihan1MI2B
             int b = a;
             a = 12;
 
-            Console.WriteLine($"a : {a}");
-            Console.WriteLine($"b : {b}");
+            Console.WriteLine($"a = {a+c}");
+            Console.WriteLine($"b = {b+a}");
 
             Mahasiswa mhs1 = new Mahasiswa();
             mhs1.Nim = "888888";
@@ -51,7 +51,7 @@ namespace Latihan1MI2B
              Console.WriteLine(nama.GetType().ToString());
              Console.WriteLine(bil1.GetType().ToString());
              Console.WriteLine(bil2.GetType().ToString());
-             Console.WriteLine(isSelected);
+             Console.WriteLine(isSelected.GetType().ToString());
 
              Hari tesHari = Hari.Senin;
              switch(tesHari)
